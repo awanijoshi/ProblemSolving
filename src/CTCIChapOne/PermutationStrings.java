@@ -26,7 +26,7 @@ public class PermutationStrings {
 		String str2 = new String(s2CharArray);				
 		if(str1.equals(str2))
 			return true;
-		return false;
+		return false; 
 	}
 	private static boolean isPermutationHashSet(String s1, String s2)
 	{
